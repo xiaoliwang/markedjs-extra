@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        #input {
+            position: fixed;
+            top: 40px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 50%;
+        }
+        #output {
+            position:fixed;
+            top: 0;
+            right:0;
+            bottom:0;
+            left:50%;
+            width:50%;
+            height:auto;
+            overflow:auto;
+        }
+    </style>
+    <script src="../lib/marked_extra.js"></script>
+</head>
+<body>
+<button onclick="praser()">praser</button>
+
+<textarea id="input">
+you can type anything here and click praser to see the result
+</textarea>
+<div id="output"></div>
+
+</body>
+<script>
+function praser(){
+    document.getElementById('output').innerHTML = marked(document.getElementById('input').value);
+}
+
+(function(){
+    window.onload = document.getElementById('output').innerHTML =
+            marked(document.getElementById('input').value);
+}());
+</script>
+</html>
