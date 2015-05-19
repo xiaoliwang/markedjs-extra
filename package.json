@@ -1,0 +1,28 @@
+{
+  "name": "markedjs-extra",
+  "version": "0.0.1",
+  "description": "Markdown Extra Plugins for marked. Support footnotes, definitions, checkbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoliwang/markedjs-extra.git"
+  },
+  "keywords": [
+    "markdown",
+    "node",
+    "iojs",
+    "requirejs",
+    "footnotes",
+    "definitions",
+    "checkbox"
+  ],
+  "author": "Tom <jiepengthegreat@126.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiaoliwang/markedjs-extra/issues"
+  },
+  "homepage": "https://github.com/xiaoliwang/markedjs-extra#readme"
+}
