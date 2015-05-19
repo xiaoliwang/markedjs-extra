@@ -1,0 +1,27 @@
+{
+  "name": "marked-extra",
+  "version": "0.0.1",
+  "homepage": "https://github.com/xiaoliwang/marked-extra",
+  "authors": [
+    "Tom <jiepengthegreat@126.com>"
+  ],
+  "description": "Markdown Extra Plugins for marked. Support footnotes, definitions, checkbox",
+  "main": "lib/marked_extra.js",
+  "keywords": [
+    "markdown",
+    "node",
+    "iojs",
+    "requirejs",
+    "footnotes",
+    "definitions",
+    "checkbox"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
