@@ -1,6 +1,12 @@
-##marked_extra
+##markedjs-extra
 
 This repository began as a GitHub fork of [chjj/marked](https://github.com/chjj/marked)
+This is a plugins to enable support for Markdown Extra syntax. Open demo/demo.html to try it yourself.
+
+##install
+
+* install with Bower: bower install markedjs-extra --save
+* install with npm: npm install marked-extra --save
 
 ## Usage
 
@@ -20,6 +26,7 @@ marked.setOptions({
   renderer: new marked.Renderer(),
   gfm: true,
   tables: true,
+  extra: true,
   breaks: false,
   pedantic: false,
   sanitize: true,
@@ -52,6 +59,7 @@ console.log(marked('I am using __markdown__.'));
 more details https://github.com/chjj/marked/blob/master/README.md
 
 ##New Feature
+(you should set the option extra true)
 ###checkbox
 The following markdown:
 
