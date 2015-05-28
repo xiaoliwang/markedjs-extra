@@ -1,6 +1,6 @@
 {
   "name": "markedjs-extra",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Markdown Extra Plugins for marked. Support footnotes, definitions, checkbox",
   "main": "index.js",
   "scripts": {
