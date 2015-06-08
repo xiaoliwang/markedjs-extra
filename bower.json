@@ -1,12 +1,12 @@
 {
   "name": "markedjs-extra",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/xiaoliwang/marked-extra",
   "authors": [
     "Tom <jiepengthegreat@126.com>"
   ],
   "description": "Markdown Extra Plugins for marked. Support footnotes, definitions, checkbox",
-  "main": "lib/marked_extra.js",
+  "main": "marked_extra.min.js",
   "keywords": [
     "markdown",
     "node",
